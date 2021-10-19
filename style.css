@@ -1,0 +1,57 @@
+/* Rustamov Ixtiyor */
+* {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-weight: 500;
+    font-family: 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  .main {
+    background: url("./bg.jpg");
+    min-height: 100vh;
+    background-position: center top;
+  }
+
+  .konteyner {
+    padding-top: 5px;
+    width: 1000px;
+    max-width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  input {
+     color: #000;
+     margin: 10px 0 10px 0;
+     width: 100%; 
+     border: none;
+     outline: none;
+     border-radius: 5px;
+     font-size: 25px;
+  } 
+  label, 
+  p.natija,.info1 {
+    align-self: flex-start;
+  }
+  p.info1 {
+      visibility: visible;
+  }
+  button {
+    margin-top: 10px;
+    width: 30%;
+    background-color: crimson;
+    color: #fff;
+    align-self: flex-end;
+    display: inline;
+    box-sizing: border-box;
+    padding: 15px 10px;
+    border-radius: 5px;
+    border: 0;
+    outline: 0;
+  }
+  b.kreator {
+    align-self: flex-end;
+  }
